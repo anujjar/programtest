@@ -9,6 +9,7 @@ include_once('server.php');
 $host    = "127.0.0.1";
 $port    = 3000;
 $a =4554;
+$b=456;
 
 $message = "Hello Server";
 echo "Message To server :".$message;

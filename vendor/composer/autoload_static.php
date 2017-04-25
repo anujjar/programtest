@@ -11,6 +11,10 @@ class ComposerStaticInit4f86e97bf71a2aa70835b91e8f3d5318
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'Workerman\\' => 10,
+        ),
         'S' => 
         array (
             'Slim\\' => 5,
@@ -19,6 +23,7 @@ class ComposerStaticInit4f86e97bf71a2aa70835b91e8f3d5318
         array (
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
+            'PHPSocketIO\\' => 12,
         ),
         'I' => 
         array (
@@ -28,9 +33,17 @@ class ComposerStaticInit4f86e97bf71a2aa70835b91e8f3d5318
         array (
             'FastRoute\\' => 10,
         ),
+        'C' => 
+        array (
+            'Channel\\' => 8,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Workerman\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/workerman',
+        ),
         'Slim\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/slim/Slim',
@@ -43,6 +56,10 @@ class ComposerStaticInit4f86e97bf71a2aa70835b91e8f3d5318
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
+        'PHPSocketIO\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/phpsocket.io/src',
+        ),
         'Interop\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
@@ -50,6 +67,10 @@ class ComposerStaticInit4f86e97bf71a2aa70835b91e8f3d5318
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Channel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/channel/src',
         ),
     );
 

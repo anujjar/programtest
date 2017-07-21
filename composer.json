@@ -1,0 +1,13 @@
+{
+    "name": "vendor/programtest",
+    "description": "test program",
+    "authors": [
+        {
+            "name": "Anuj Kumar",
+            "email": "anujkuamr@mansainfotech.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "~5.2"
+    }
+}
